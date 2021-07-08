@@ -1,4 +1,6 @@
+// eslint-disable-next-line
 export default {
+  clearMocks: true,
   preset: "ts-jest",
   testEnvironment: "jsdom",
   testPathIgnorePatterns: ["<rootDir>/.next/", "<rootDir>/node_modules/"],
